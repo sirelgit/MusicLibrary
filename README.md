@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ## Docker
 ``` bash
 docker build -t music_library .
-docker run -it music_library
+docker run -d -p 5000:5000 music_library
 ```
 ## Usage
 ``` bash
